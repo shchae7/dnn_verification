@@ -22,7 +22,14 @@ sh ./scripts/install.sh install reluplex marabou ...
 ## Experiments
 ### ACAS Xu Experiments
 Based on the definitions provided by [Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks](https://arxiv.org/pdf/1702.01135.pdf) <br>
-Supports property 2, 3, 4, 5, 6, 9, 10 (more to be added)
+Currently available properties
+|      Tool      |      Description      |
+| -------------- | --------------------- |
+|    Reluplex    | 1,2,3,4,5,6,7,8,9,10  |
+|    Marabou     | 2,3,4,5,6,9,10        |
+|ReluVal(Neurify)| 1,2,3,4,5,6,7,8,9,10  |
+|      ERAN      | 2                     |
+|       NNV      |                       |
 
 
 ## Repository Tree
@@ -30,7 +37,7 @@ Supports property 2, 3, 4, 5, 6, 9, 10 (more to be added)
 dnn_verification
 │   README.md  
 │
-└───tools
+└───verifiers
 │   │
 │   └───Reluplex
 │   │
@@ -71,3 +78,4 @@ dnn_verification
 References
 ==========
 DNNV (https://github.com/dlshriver/DNNV)
+NNet (https://github.com/sisl/NNet)
