@@ -1,0 +1,1 @@
+./build/Marabou resources/nnet/acasxu/ACASXU_experimental_v2a_4_5.nnet resources/properties/property10.txt --snc --initial-divides=4 --initial-timeout=5 --num-online-divides=4 --timeout-factor=1.5 --num-workers=4 > dnc_logs/property10_stats_4_5.txt
