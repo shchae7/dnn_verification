@@ -5,7 +5,7 @@
 #SBATCH  --nodes=1 
 #SBATCH  --ntasks=2
 #SBATCH  --tasks-per-node=2
-#SBATCH  --cpus-per-task=2
+#SBATCH  --cpus-per-task=3
 
 set echo on
 
