@@ -28,7 +28,7 @@ Currently available properties
 |    Reluplex    | 1,2,3,4,5,6,7,8,9,10  |
 |    Marabou     | 2,3,4,5,6,9,10        |
 |ReluVal(Neurify)| 1,2,3,4,5,6,7,8,9,10  |
-|      ERAN      | 2                     |
+|      ERAN      | 2,3,4,5,6,9,10        |
 |       NNV      |                       |
 
 
