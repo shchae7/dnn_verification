@@ -1,11 +1,11 @@
 #!/bin/bash  
-#SBATCH  -J MbouProp1
-#SBATCH  -o MbouProp1.%j.out
+#SBATCH  -J MbouDnCProp10
+#SBATCH  -o MbouDnCProp10.%j.out
 #SBATCH  -t 1-00:00:00
 #SBATCH  --nodes=1 
 #SBATCH  --ntasks=2
 #SBATCH  --tasks-per-node=2
-#SBATCH  --cpus-per-task=2
+#SBATCH  --cpus-per-task=3
 
 set echo on
 
@@ -21,7 +21,7 @@ module  load  postech
 
 date 
 
-sh ~/Marabou/scripts/run_property1.sh
+sh ~/Marabou/dnc_scripts/run_property10.sh
 
 date
 

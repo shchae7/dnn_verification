@@ -1,6 +1,6 @@
 #!/bin/bash  
-#SBATCH  -J MbouDnCProp3 
-#SBATCH  -o MbouDnCProp3.%j.out
+#SBATCH  -J MbouDnCProp6
+#SBATCH  -o MbouDnCProp6.%j.out
 #SBATCH  -t 1-00:00:00
 #SBATCH  --nodes=1 
 #SBATCH  --ntasks=2
@@ -21,7 +21,7 @@ module  load  postech
 
 date 
 
-sh ~/Marabou/dnc_scripts/run_property3.sh
+sh ~/Marabou/dnc_scripts/run_property6.sh
 
 date
 
