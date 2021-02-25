@@ -1,11 +1,11 @@
 #!/bin/bash  
-#SBATCH  -J RValProp8
-#SBATCH  -o RValProp8.%j.out
+#SBATCH  -J RValProp6
+#SBATCH  -o RValProp6.%j.out
 #SBATCH  -t 1-00:00:00
 #SBATCH  --nodes=1 
 #SBATCH  --ntasks=2
 #SBATCH  --tasks-per-node=2
-#SBATCH  --cpus-per-task=2
+#SBATCH  --cpus-per-task=3
 
 set echo on
 
@@ -23,7 +23,7 @@ ml swap gnu7/7.3.0 gnu/5.4.0
 date 
 
 export LD_LIBRARY_PATH=/home/shchae7/ReluVal/lib:$LD_LIBRARY_PATH
-~/ReluVal/scripts/run_property8.sh
+~/ReluVal/scripts/run_property6.sh
 
 date
 
